@@ -35,6 +35,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash && \
 sudo apt install -y nodejs
 ```
 For Centos 7.x
+``` bash
 sudo yum update && \
 sudo yum install parallel curl -y && \
 curl -sL https://rpm.nodesource.com/setup_10.x | bash - && \
